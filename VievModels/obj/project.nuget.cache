@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "k6AQUa34jgqtLEWYKTJNxk/aU3/J5sdxUULcVEOc3pO9gnnKnTIA0x/2kTRVRWNjDFGfNSWh6Q/PwXhDzVoKVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bokov\\source\\repos\\WPFTemplate\\VievModels\\VievModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bokov\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\devexpressmvvm\\23.2.3\\devexpressmvvm.23.2.3.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,33 @@
+﻿<Window x:Class="Vievs.MainWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vievs.MainWindow"
+        xmlns:mainWindow="clr-namespace:VievModels.VievModels;assembly=VievModel"
+        xmlns:converters="clr-namespace:Vievs.Converters"
+        xmlns:mainWindow1="clr-namespace:VievModels.VievModels.MainWindow;assembly=VievModel"
+        mc:Ignorable="d"
+        WindowState="{Binding IsMaximized,Mode=TwoWay,Converter={x:Static converters:BoolToWindowsStateConverter.Instance}}"
+        Title="{Binding Title, Mode=OneTime}"
+        Height="{Binding Height, Mode=TwoWay}"
+        Width="{Binding Width,  Mode=TwoWay}"
+        Left="{Binding Left,  Mode=TwoWay}"
+        Top="{Binding Top,  Mode=TwoWay}"
+        d:DataContext="{d:DesignInstance mainWindow1:MainWindowVievModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Viewbox MaxHeight="25" HorizontalAlignment="Left">
+                <Menu Background="#424242">
+                    <MenuItem
+                        Header="О программе" Background="#424242" FontSize="20" Foreground="WhiteSmoke" Command="{Binding MenuMainWindowVievModel.OpenAboutWindowCommand}" >
+                    </MenuItem>
+                </Menu>
+            </Viewbox>
+        </Grid>
+    </Grid>
+</Window>

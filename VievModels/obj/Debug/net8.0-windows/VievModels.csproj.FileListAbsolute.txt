@@ -1,0 +1,15 @@
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\bin\Debug\net8.0-windows\VievModels.deps.json
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\bin\Debug\net8.0-windows\VievModels.dll
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\bin\Debug\net8.0-windows\VievModels.pdb
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.AssemblyInfoInputs.cache
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.AssemblyInfo.cs
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.csproj.CoreCompileInputs.cache
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.dll
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\refint\VievModels.dll
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.pdb
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\ref\VievModels.dll
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.csproj.AssemblyReference.cache
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\bin\Debug\net8.0-windows\Domain.dll
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\bin\Debug\net8.0-windows\Domain.pdb
+C:\Users\bokov\source\repos\WPFTemplate\VievModels\obj\Debug\net8.0-windows\VievModels.csproj.Up2Date

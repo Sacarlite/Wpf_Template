@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RgGXAEZooNRSb3ZsvjP9uRCBe+ezbJ8ZlDImMRFpyZuubI3epQqMnfNwvus55x+/9n2zloPj/vAWTm68JNEQFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bokov\\source\\repos\\WPFTemplate\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bokov\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
