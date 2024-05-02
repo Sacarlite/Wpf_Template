@@ -1,0 +1,34 @@
+﻿using Autofac;
+using VievModels.VievModels.AboutWindowVievModel;
+using VievModels.VievModels.MainWindow;
+using VievModels.Windows;
+using Vievs;
+using Vievs.Windows;
+using Vievs.Windows.AboutWindow;
+using Vievs.Windows.MainWindow;
+
+namespace Application.Factory;
+
+public class WindowFactory:IWindowFactory
+{
+    private IComponentContext _componentContext;
+    private readonly Dictionary<Type,Type> _map=new Dictionary<Type,Type>()
+    {
+        { typeof(IMainWindowVievModel), typeof(IMainWindow)},
+        { typeof(IAboutWindowVievModel), typeof(IAboutWindow)},
+    };
+    public WindowFactory(IComponentContext componentContext)
+    {
+        _componentContext=componentContext;
+    }
+
+    public IWindow Create<TWindowViewModel>(TWindowViewModel viewModel) where TWindowViewModel : IWindowViewModel
+    {
+        if (!_map.TryGetValue(typeof(TWindowViewModel), out var windowType))
+            throw new InvalidOperationException($"There is no window registered for {typeof(TWindowViewModel)}");
+
+        var instance = _componentContext.Resolve(windowType, TypedParameter.From(viewModel));
+
+        return (IWindow)instance;
+    }
+}
