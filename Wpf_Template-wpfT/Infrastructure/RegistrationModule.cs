@@ -17,7 +17,7 @@ namespace Infrastructure
         {
             builder.RegisterType<MainWindowMementoWrapper>().As<IMainWindowMementoWrapper>().As<IWindowMementoWrapperInitializer>().SingleInstance();
 
-            builder.RegisterType<AboutWindowMementoWrapper>().As<IAboutWindowMementoWrapper>()
+            builder.RegisterType<AboutWindowMementoWrapper>().As<IAutorizationWindowMementoWrapper>()
                 .As<IWindowMementoWrapperInitializer>().SingleInstance();
 
             builder.RegisterType<AplicationVersionProvider>().As<IAplicationVersionProvider>().SingleInstance();

@@ -5,10 +5,10 @@
     <Compile Update="Windows\AboutWindow\AboutWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Windows\MainWindow\MainWindow.xaml.cs">
+    <Compile Update="Windows\AutorizationWindow\AutorizationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Windows\OptimizeWindow\OptimizeWindow.xaml.cs">
+    <Compile Update="Windows\MainWindow\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -16,10 +16,10 @@
     <Page Update="Windows\AboutWindow\AboutWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Windows\MainWindow\MainWindow.xaml">
+    <Page Update="Windows\AutorizationWindow\AutorizationWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Windows\OptimizeWindow\OptimizeWindow.xaml">
+    <Page Update="Windows\MainWindow\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VYTAdiWSIOlTJnvsvhZhM1JGsEaJLqXAw5XUHfv6rCQwWjxR21DEXRmQta3Ldq0vyPK7rpKoUmjw9nI2RV6Vyw==",
+  "dgSpecHash": "nj4bxUN6VhmkgB5IULnECr0Q1b2rfya6wlPnQNjC6iE04G37h7+fuoio+Ky6fGoDkqVZxB0UOzF/llYJNIOnQg==",
   "success": true,
   "projectFilePath": "C:\\KursMO\\Wpf_Template-wpfT\\Vievs\\Vievs.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,9 @@
     "C:\\Users\\bokov\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
     "C:\\Users\\bokov\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
     "C:\\Users\\bokov\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
-    "C:\\Users\\bokov\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\bokov\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\wpfmath\\2.1.0\\wpfmath.2.1.0.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\xamlmath.shared\\2.1.0\\xamlmath.shared.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

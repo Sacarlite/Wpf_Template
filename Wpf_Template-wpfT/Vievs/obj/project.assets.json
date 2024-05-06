@@ -185,6 +185,30 @@
           }
         }
       },
+      "WpfMath/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "XamlMath.Shared": "2.1.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/WpfMath.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/WpfMath.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "XamlMath.Shared/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/XamlMath.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/XamlMath.Shared.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -493,6 +517,36 @@
         "version.txt"
       ]
     },
+    "WpfMath/2.1.0": {
+      "sha512": "216GtCBYFMPw5SaArNcuTgemgAWw985LihSEf7mtOjJYTN04X4BVFGPrkJ2Fiv1ffL8gX2xiRw/o+q1SC5oSAA==",
+      "type": "package",
+      "path": "wpfmath/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FONT-LICENSES.md",
+        "README.md",
+        "lib/net462/WpfMath.dll",
+        "lib/net6.0-windows7.0/WpfMath.dll",
+        "wpfmath.2.1.0.nupkg.sha512",
+        "wpfmath.nuspec"
+      ]
+    },
+    "XamlMath.Shared/2.1.0": {
+      "sha512": "p7W78KZc2EWuVqAd704m4yGWg0HtxahjNYRVxDWhw7npf8oMD8C7EUc1pjkjZIcmk5PxXJ+t5FE2Fs3gBYjv1A==",
+      "type": "package",
+      "path": "xamlmath.shared/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/XamlMath.Shared.dll",
+        "lib/net6.0/XamlMath.Shared.dll",
+        "lib/netstandard2.0/XamlMath.Shared.dll",
+        "xamlmath.shared.2.1.0.nupkg.sha512",
+        "xamlmath.shared.nuspec"
+      ]
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -510,11 +564,13 @@
       "MaterialDesignColors >= 3.0.0",
       "MaterialDesignThemes >= 5.0.0",
       "MaterialDesignThemes.MahApps >= 1.0.0",
-      "VievModel >= 1.0.0"
+      "VievModel >= 1.0.0",
+      "WpfMath >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bokov\\.nuget\\packages\\": {}
+    "C:\\Users\\bokov\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -525,8 +581,12 @@
       "packagesPath": "C:\\Users\\bokov\\.nuget\\packages\\",
       "outputPath": "C:\\KursMO\\Wpf_Template-wpfT\\Vievs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\bokov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -576,6 +636,10 @@
           "MaterialDesignThemes.MahApps": {
             "target": "Package",
             "version": "[1.0.0, )"
+          },
+          "WpfMath": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           }
         },
         "imports": [
@@ -597,7 +661,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

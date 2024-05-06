@@ -123,6 +123,25 @@
       },
       "System.Diagnostics.DiagnosticSource/7.0.2": {},
       "System.Text.Json/4.7.2": {},
+      "WpfMath/2.1.0": {
+        "dependencies": {
+          "XamlMath.Shared": "2.1.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/WpfMath.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "XamlMath.Shared/2.1.0": {
+        "runtime": {
+          "lib/net6.0/XamlMath.Shared.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
@@ -155,7 +174,8 @@
           "MaterialDesignColors": "3.0.0",
           "MaterialDesignThemes": "5.0.0",
           "MaterialDesignThemes.MahApps": "1.0.0",
-          "VievModel": "1.0.0"
+          "VievModel": "1.0.0",
+          "WpfMath": "2.1.0"
         },
         "runtime": {
           "Vievs.dll": {}
@@ -252,6 +272,20 @@
       "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
       "path": "system.text.json/4.7.2",
       "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "WpfMath/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-216GtCBYFMPw5SaArNcuTgemgAWw985LihSEf7mtOjJYTN04X4BVFGPrkJ2Fiv1ffL8gX2xiRw/o+q1SC5oSAA==",
+      "path": "wpfmath/2.1.0",
+      "hashPath": "wpfmath.2.1.0.nupkg.sha512"
+    },
+    "XamlMath.Shared/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p7W78KZc2EWuVqAd704m4yGWg0HtxahjNYRVxDWhw7npf8oMD8C7EUc1pjkjZIcmk5PxXJ+t5FE2Fs3gBYjv1A==",
+      "path": "xamlmath.shared/2.1.0",
+      "hashPath": "xamlmath.shared.2.1.0.nupkg.sha512"
     },
     "Domain/1.0.0": {
       "type": "project",

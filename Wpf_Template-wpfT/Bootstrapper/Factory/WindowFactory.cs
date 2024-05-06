@@ -1,10 +1,12 @@
 ﻿using Autofac;
+using VievModel.VievModels.AutorizationVievModel;
 using VievModels.VievModels.AboutWindowVievModel;
 using VievModels.VievModels.MainWindow;
 using VievModels.Windows;
 using Vievs;
 using Vievs.Windows;
 using Vievs.Windows.AboutWindow;
+using Vievs.Windows.AutorizationWindow;
 using Vievs.Windows.MainWindow;
 
 namespace Application.Factory;
@@ -16,6 +18,7 @@ public class WindowFactory:IWindowFactory
     {
         { typeof(IMainWindowVievModel), typeof(IMainWindow)},
         { typeof(IAboutWindowVievModel), typeof(IAboutWindow)},
+        { typeof(IAutorizationVievModel), typeof(IAutorizationWindow)},
     };
     public WindowFactory(IComponentContext componentContext)
     {

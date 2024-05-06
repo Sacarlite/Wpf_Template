@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BhDWSBYzLWwonRF8lLOxUAtAKfT3uXv/F8iN817nPPQyWlTM8R345lxO0yjinZb4wIat2VKv5uIb83ynkSX/FA==",
+  "dgSpecHash": "YuJAW+P4FkdRDn6tsyGwda/QS/sCJWqayfi6bCmva9CU3ypUxxCDtzRwBWulzaFBUy95PCNyBRsZH6gMs5WrYg==",
   "success": true,
   "projectFilePath": "C:\\KursMO\\Wpf_Template-wpfT\\Bootstrapper\\Bootstrapper.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,9 @@
     "C:\\Users\\bokov\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\bokov\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
     "C:\\Users\\bokov\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
-    "C:\\Users\\bokov\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\bokov\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\wpfmath\\2.1.0\\wpfmath.2.1.0.nupkg.sha512",
+    "C:\\Users\\bokov\\.nuget\\packages\\xamlmath.shared\\2.1.0\\xamlmath.shared.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

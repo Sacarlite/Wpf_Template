@@ -3,6 +3,7 @@ using Autofac;
 using Domain.Factories;
 using Infrastructure.Settings;
 using NLog;
+using VievModel.VievModels.AutorizationVievModel;
 using VievModels.VievModels.MainWindow;
 using VievModels.Windows;
 
@@ -24,10 +25,10 @@ internal class Application : IApplication, IDisposable
     {
         InitializeDependencies();
         _applicationlifetimeScope.Resolve<IWindowMementoWrapperInitializer>();
-        var mainWindowVievModelFactory = _applicationlifetimeScope.Resolve<IFactory<IMainWindowVievModel>>();
-        var mainWindowVievModel = mainWindowVievModelFactory.Create();
+        var autorizationWindowVievModelFactory = _applicationlifetimeScope.Resolve<IFactory<IAutorizationVievModel>>();
+        var autorizationWindowVievModel = autorizationWindowVievModelFactory.Create();
         var windowManager = _applicationlifetimeScope.Resolve<IWindowManager>();
-        var mainWindow = windowManager.Show(mainWindowVievModel);
+        var mainWindow = windowManager.Show(autorizationWindowVievModel);
         if (mainWindow is not Window window) throw new NotImplementedException();
 
         return window;

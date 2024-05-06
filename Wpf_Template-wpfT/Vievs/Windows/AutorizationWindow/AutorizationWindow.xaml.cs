@@ -11,17 +11,19 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using VievModel.VievModels.AutorizationVievModel;
 
-namespace Vievs.Windows.OptimizeWindow
+namespace Vievs.Windows.AutorizationWindow
 {
     /// <summary>
-    /// Логика взаимодействия для OptimizeWindow.xaml
+    /// Логика взаимодействия для AutorizationWindow.xaml
     /// </summary>
-    public partial class OptimizeWindow : Window
+    public partial class AutorizationWindow : System.Windows.Window, IAutorizationWindow
     {
-        public OptimizeWindow()
+        public AutorizationWindow(IAutorizationVievModel autorizationVievModel)
         {
             InitializeComponent();
+            DataContext = autorizationVievModel;
         }
     }
 }
